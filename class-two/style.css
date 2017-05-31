@@ -1,0 +1,67 @@
+*{margin:0;padding:0}
+body {font-family:arial;color:#666;font-size:14px;line-height:20px;background:url(images/bg.png) repeat scroll 0 0 #f0f0f0}
+h1,h2,h3 {font-weight:normal}
+a,a:hover {text-decoration:none}
+.fix {overflow:hidden}
+.float-left{float:left}
+.float-right{float:right}
+.stracture {width:960px;margin:0 auto;display:block}
+
+.header-area {background:#106b7d}
+.header{}
+.logo{}
+.logo h1 {
+  color: #fff;
+  font-family: courier new,Arial;
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.header-right{}
+.socialbookmark {
+  margin-bottom: 15px;
+  margin-left: 234px;
+  margin-top: 15px;
+}
+.mainmenu {
+  margin-bottom: 18px;
+}
+.mainmenu ul{margin:0;padding:0;list-style:none}
+.mainmenu ul li{float:left}
+.mainmenu ul li a{display:block;color:#fff;padding:8px 15px;border-radius:5px;margin-right:10px}
+.mainmenu ul li a:hover,#current{background:url(images/menu-hover.png) repeat-x;color:#000}
+.zigjak-bottom {background:url(images/zigjak-bottom-1.png) repeat-x;height:5px;margin-bottom:20px}
+.slider-area{}
+.slider{}
+.promo-area{}
+.promo{}
+.single-promo{}
+.feature-area{}
+.feature{}
+.featured-post-area {}
+.footer-top-area{}
+.footer-top{}
+.bloge-roll{}
+.contact{}
+.latest-post{}
+.latest-post-area {}
+.footer-bottom-area{}
+.footer-bottom{}
+.footer-left{}
+.footer-right{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
