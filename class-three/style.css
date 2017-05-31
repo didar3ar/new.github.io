@@ -1,0 +1,325 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {font-family: 'Yeseva One', cursive;
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+html,
+body { height: 100% }
+body {
+font-family:'Gentium Book Basic', serif;
+font-size:16px;
+}
+
+.scroller{background:#FFF; border:1px solid #CCC; margin:0 0 10px; z-index:100; height:50px; font-size:18px; font-weight:bold; text-align:center; width:960px;}
+
+a:hover { text-decoration: none }
+
+.sticky-wrapper{
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:999;
+	
+}
+.header-area{
+	width:100%;
+}
+.logo img {
+	height:90px;
+}
+
+.is-sticky .header-area {
+    background: #000 none repeat scroll 0 0;
+    left: 0;
+    opacity: 0.8;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%
+	content:"";
+    z-index: -1;
+}
+
+.header-area:after, .logo img, .mainmenu ul.nav.navbar-nav li a, .social-link{transition: .4s}
+
+.is-sticky .logo img {
+    height: 65px;
+    padding: 5px 0;
+    width: auto;
+}
+.is-sticky .mainmenu ul.nav.navbar-nav li a {
+    padding: 22px 10px;
+}
+.is-sticky .social-link {
+    top: 22px;
+}
+
+.slide-bg-1 {background: url(img/header-bg.jpg)}
+.slide-bg-2 {background: url(img/new-parallax-bg2.jpg)}
+.header-text h2 {background: url(img/line_symble.png)}
+.top-area{position:relative}
+.top-area-bg {
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-text-area{
+	position:relative;
+	padding-top:80px;
+}
+.mainmenu ul.nav.navbar-nav {
+	float:none;font-size:20px;text-align:right;
+}
+.mainmenu ul.nav.navbar-nav  li {
+	display:inline-block;float:none;position:relative
+}
+.mainmenu ul.nav.navbar-nav li a {
+	color:#fff;padding:49px 15px
+}
+.mainmenu ul.nav.navbar-nav li a:focus {
+	background:none
+}
+.mainmenu ul.nav.navbar-nav li:hover a {
+	background:none
+}
+.mainmenu ul.nav.navbar-nav li.active::before{
+	background: #c8c5ba none repeat scroll 0 0;height:3px;position:absolute;width:100%
+}
+.is-sticky .mainmenu ul.nav.navbar-nav li.active a {color:#cc9900}
+
+.header-text h2 {
+    background: rgba(0, 0, 0, 0) url("img/line_symble.png") no-repeat scroll center bottom;
+    color: #fff;
+    font-size: 70px;
+	padding-bottom: 70px;
+	margin-bottom:40px
+}
+.btn-filled{
+	color:#fff;
+	display:inline-block;
+	margin:0 5px;
+	padding: 10px 30px;
+	position:relative;
+	text-transform:uppercase;
+	z-index:1;
+	
+}
+.btn-filled::after {
+	background: #1d2122 none repeat scroll 0 0;
+	content: "";
+	height:100%;
+	left:0;
+	opacity: 0.8;
+	position:absolute;
+	top:0;
+	width: 100%;
+	z-index: -1;
+}
+.btn-filled.yellow-color-btn:after{background-color: #d2bab2;}
+.header-text{padding:100px 0;}	
+
+.mainmenu {
+    padding-right: 107px;
+    position: relative;
+}
+.social-link {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.social-link a {
+    color: #d8b13d;
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 9px;
+}
+.about-area{background: url(img/symphony.png)}
+.section-padding{padding:80px 0}
+.section-title{background: rgba(0,0,0,0) url(img/section-title-pattern.png) no-repeat scroll center bottom;color:#cc9900;margin-bottom:20px;padding-bottom:35px;text-align:center;}
+
+
+.slide-control {
+    color: #fff;
+    font-size: 80px;
+    left: 30px;
+    margin-top: -50px;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+}
+.slide-control.right {
+    left: auto;
+    right: 30px;
+}
+.slide-control:hover {
+    opacity: 1;
+    color: #fff;
+}
+
+
+.about-text{margin-top:20px}
+.author-photo{margin-top: 30px}
+.Igredients-area{position:relative}
+.parallax-bg{position:absolute;left:0;top:0;width:100%;height:100%;background-size:cover;background-attachment:fixed;}
+.Igredients-bg{background-image:url(img/new-parallax-bg.jpg)}
+.Igredients-text {
+  color: #fff;
+  padding: 86px;
+  position: relative;
+  z-index: 1;
+}
+.Igredients-text p {margin-bottom: 30px;}
+
+.Igredients-text::after,.testimonial-list:after {
+	background: #000 none repeat scroll 0 0;
+	content: "";
+	height:100%;
+	left:0;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:-1;
+	
+}
+.section-title.white-sec-title {color:#fff;background-image: url(img/section-pattern-white.png)}
+.food-menu-area{background:url(img/symphony.png)}
+.single-food-menu-item h2{
+	border-bottom:1px solid;
+	color:#c89f2d;
+	font-size:20px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	
+}
+.single-food-menu-item h2 span {
+	float:right;
+	font-weight: 400;
+	
+}
+.single-food-menu-item {
+	margin-bottom:40px;
+}
+.single-food-menu-item.special {
+    border: 1px solid #e9dcb5;
+    padding: 10px;
+    position: relative;
+}
+.single-food-menu-item.special::before {
+    background: #d7ba69 none repeat scroll 0 0;
+    color: #fff;
+    content: "Special";
+    font-size: 14px;
+    padding: 1px 5px;
+    position: absolute;
+    right: -1px;
+    text-transform: uppercase;
+    top: -23px;
+}
+.single-food-menu-item p {
+	margin:0;
+}
+.testimonial-area{position:relative}
+.testimonial-bg {background-image: url(img/new-parallax-bg2.jpg)}
+.testimonial-list {
+  color: #fff;
+  font-size: 25px;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-list p.testimonial-author{font-size:18px;margin-top:30px;}
+#testimonial-carousel:before {font-family:fontAwesome;content: "\f10d";position:absolute;left:-30px;top: -17px;color:#9a9b9a;font-size:35px;}
+.contact-us-area{background-image: url(img/symphony.png)}
+.contact-img img {
+  margin-left: 30px;
+  width: 245px;
+}
+.contact-form {
+    text-align: left;
+}
+.contact-form input[type="text"] {
+    border: 1px solid #e2d4ac;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+}
+.contact-form label {
+    color: #c9a131;
+	margin-top:30px
+}
+.contact-form select {
+    border: 1px solid #e2d4ac;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+}
+.contact-form button {
+    background: #c8a03c none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 30px;
+    width: 150px;
+}
+.footer-area {
+    background: #191919 none repeat scroll 0 0;
+    color: #bfbfbf;
+    font-size: 15px;
+    padding: 50px 0;
+}
+.footer-area .section-title {
+    color: #fff;
+    font-size: 20px;background-image: url(img/section-pattern-little.png)
+}
+.footer-area strong {
+    color: #fff;
+}
+.footer-cards {
+    color: #fff;
+    margin-top: 20px;
+}
+.footer-cards i {
+    margin: 0 5px;
+}
+.footer-social-icon a {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
