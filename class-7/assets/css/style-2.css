@@ -1,0 +1,67 @@
+.hero-area {
+	background-image: url(../img/hero-bg-2.png);background-color: #359af3;
+}
+.boxed-btn,  input[type=submit], button[type=submit] {
+	background-color: #24d5a1;
+}
+.hero-area {
+	color: #fff;
+	background-size: cover;
+	background-position: center;
+	line-height: 1.8;
+	padding:80px 0;
+}
+.hero-area h1 {
+	color: #fff;
+	font-size: 45px;
+	margin-top: 90px;
+	
+}
+
+
+.single-service-box-2:hover {background: #04befe;
+background: -moz-linear-gradient(top, #04befe 0%, #4481eb 100%);
+background: -webkit-linear-gradient(top, #04befe 0%,#4481eb 100%);
+background: linear-gradient(to bottom, #04befe 0%,#4481eb 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04befe', endColorstr='#4481eb',GradientType=0 );}
+
+h3 {
+	font-size: 22px;
+}
+.about-text h3 {
+	margin-bottom: 26px;
+}
+.about-text .boxed-btn {
+	margin-top: 14px;
+}
+.about-text {
+	margin-top: 50px;
+}
+.padding-top-0 {
+	padding-top: 0;
+}
+.single-service-box-2 {
+	display: block;
+	height: 250px;
+	background: #fbfbfb;
+	display: table;
+	width: 100%;
+	text-align: center;
+	
+}
+.srvice-box-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 30px;
+	
+}
+.service-icon {
+	color: #2ea5f6;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.single-service-box-2: i.fa {transition: .3s;}
+
+.single-service-box-2:hover i.fa, .single-service-box-2:hover h3 {
+	color: #fff;
+}
