@@ -1,0 +1,81 @@
+body {
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+.homepage-hero-area-4 {background-image: url(../img/hero-area-4.jpg)}
+
+.boxed-btn, input[type="submit"], button[type="submit"] {
+	background-color: #24d5a1;
+}
+body, html, .homepage-hero-area-4, .single-slide-item {
+	height: 100%;
+}
+.single-slide-item {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.slide-item-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	font-weight: 300;
+}
+.slide-item-wrapper h2 {
+	font-weight: 700;
+	font-size: 43px;
+	color: #fff;
+	line-height: 55px;
+}
+.website-check-from {
+	margin-top: 30px;
+}
+.website-check-from input {
+background-color: #0b3b4b;
+border-color: #0b3b4b;
+border-style: solid;
+border-width: 2px;
+}
+.website-check-from input[type=submit], .website-check-from button[type=submit] {
+	background-color: #06d6a0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+.padding-top-80 {
+	padding-top: 80px;
+}
+.inline-btn {
+	color: #24d5a1;
+	display: inline-block;
+	padding-top: 15px;
+}
+.single-service-box:hover {
+    border-color: #06d6a0;
+}
+
+.single-service-box:hover a.service-readmore-btn, .single-service-box :hover h3, .single-service-box:hover .service-icon {
+    color: #24d5a1;
+}
+.single-pricing-box:hover {
+	border-color: #24d5a1;
+}
+.pricing-count {
+	color: #24d5a1;
+}
+.footer-area ul.social-links li a:hover {
+    color: #3BDEB4;
+}
+.social-links {
+    text-align: left;
+}
+.mainmenu ul li a:hover {
+	text-decoration: none;
+	color: #8BECD3;	
+}
+.sectino-padding {
+	padding: 80px;
+}
