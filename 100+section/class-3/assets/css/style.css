@@ -1,0 +1,88 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.video-area-bg {background-image: url(../img/make-more-happen.jpg);background-color: #ddd;background-position: center;background-size: cover}
+
+.check-icon li:before {font-family: fontAwesome; content:"\f00c"}
+
+
+.video-area {
+    padding: 83px 0;
+    position: relative;
+    margin: 100px 0;
+}
+.video-area-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 45%;
+}
+.video-play-btn {
+    background: #1fa663 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    height: 80px;
+    line-height: 80px;
+    margin-top: -40px;
+    position: absolute;
+    right: -40px;
+    text-align: center;
+    top: 50%;
+    width: 80px;
+}
+body {
+    color: #909090;
+}
+h3 {
+    color: #333;
+}
+ul.check-icon {
+    color: #666;
+    font-size: 15px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.check-icon li {
+    padding-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+}
+.check-icon li::before {
+    color: #1fa663;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
