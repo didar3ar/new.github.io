@@ -1,0 +1,89 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.section-title h2 {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.section-title h2::before {
+    background: #f87900 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    width: 60px;
+}
+.section-title h2::after {
+    background: #1a1a1a none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 20px;
+    z-index: 1;
+}
+.single-service-item {
+    color: #333;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.single-service-item h3 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+.service-icon-table {
+    display: table;
+    height: 80px;
+    width: 100%;
+}
+.service-icon-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.service-icon-container {
+    color: #FF7876;
+    font-size: 80px;
+}
