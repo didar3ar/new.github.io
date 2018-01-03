@@ -7,7 +7,7 @@
     		nav: false,
     		dots: true,
     		loop: true,
-    		autoplay: false,
+    		autoplay: true,
     	})
 
         
