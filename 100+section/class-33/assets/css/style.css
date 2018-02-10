@@ -1,0 +1,122 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.fullwidth-bg-area {background-image: url(../img/bg-1.jpg);}
+.section-padding {
+    padding: 80px 0;
+}
+
+.fullwidth-bg-area {
+    margin: 70px 0;
+}
+
+.margin-minus {
+    margin: -70px 0;
+    padding: 120px 70px;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.dark-bg {
+    background: #2B2F41;
+    color: #fff;
+}
+
+.bordered-btn {
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #cca876;
+    padding: 10px 40px;
+}
+
+.margin-minus .bordered-btn {
+    margin-top: 50px;
+    padding-left: 25px;
+}
+
+.boxed-content h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.author-name {
+    font-family: roboto;
+    font-size: 25px;
+    margin-top: 30px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.author-name span {
+    font-size: 70%;
+    font-weight: 300;
+    opacity: .3;
+}
+
+.author-name:before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+    background: #fff;
+}
+
+.boxed-content {
+    position: relative;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-bottom: 2px;
+}
+
+.boxed-content:before {
+    position: absolute;
+    left: -40px;
+    top: -11px;
+    width: 50px;
+    height: 50px;
+    content: "";
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.boxed-content:after {
+    position: absolute;
+    right: -70px;
+    bottom: 90px;
+    width: 50px;
+    height: 50px;
+    content: "";
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
