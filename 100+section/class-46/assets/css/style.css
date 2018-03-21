@@ -1,0 +1,165 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding.dark-bg {
+    background: #363636;
+    color: #E2E2E2;
+}
+
+.trailor-text {
+    font-size: 15px;
+    line-height: 1.7;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trailor-text h2 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    position: relative;
+}
+
+.trailor-text h2:after {
+    height: 2px;
+    width: 30px;
+    content: "";
+    background-color: #CE4946;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+a.bordered-btn {
+    display: inline-block;
+    border: 2px solid #FF4F4B;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 15px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+a.bordered-btn i.fa {
+    float: right;
+    padding-top: 2px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.trailor-info {
+    position: relative;
+    text-align: right;
+
+}
+
+.colored-pricing-box {
+    position: absolute;
+    right: 140px;
+    background: #ff5151;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+    padding-top: 50px;
+    height: 300px;
+}
+
+.colored-pricing-box p {
+    opacity: .5;
+}
+
+.colored-pricing-box p.price-text {
+    color: #fff;
+    opacity: 1;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a.absulate-shopping-cart {
+    position: absolute;
+    left: -25px;
+    top: 35px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #333;
+    line-height: 50px;
+    font-size: 16px;
+    box-shadow: 0 0 10px #666;
+}
+
+.trailor-info img {
+    position: relative;
+    z-index: 1;
+    padding-top: 125px;
+}
+ div.owl-carousel .owl-item .trailor-info img {
+    width: auto;
+    display: inline-block;
+ }
+ .featured-trailors-carousel .owl-dots div:nth-child(1) span:before{content: "01"}
+ .featured-trailors-carousel .owl-dots div:nth-child(2) span:before{content: "02"}
+ .featured-trailors-carousel .owl-dots div:nth-child(3) span:before{content: "03"}
+ .featured-trailors-carousel .owl-dots div:nth-child(4) span:before{content: "04"}
+ .featured-trailors-carousel .owl-dots div:nth-child(5) span:before{content: "05"}
+ .featured-trailors-carousel .owl-dots div:nth-child(6) span:before{content: "06"}
+ .featured-trailors-carousel .owl-dots div:nth-child(7) span:before{content: "07"}
+ .featured-trailors-carousel .owl-dots div:nth-child(8) span:before{content: "08"}
+ .featured-trailors-carousel .owl-dots div:nth-child(9) span:before{content: "09"}
+ .featured-trailors-carousel .owl-dots div:nth-child(10) span:before{content: "10"}
+
+ .featured-trailors-carousel .owl-dots div {
+    border-left: 2px solid #444;
+    padding: 20px 15px;
+}
+
+.featured-trailors-carousel .owl-dots div.active {
+    border-color: #ff5151;
+}
+
+.featured-trailors-carousel .owl-dots {
+    position: absolute;
+    right: -100px;
+    top: 30%;
+}
