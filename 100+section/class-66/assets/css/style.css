@@ -1,0 +1,126 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #4c4b8a;
+    font-weight: 400;
+
+}
+body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #979797;
+
+}
+a:hover { text-decoration: none }
+.section-title {
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+
+.class-style {
+    padding: 156px 156px;
+}
+
+.single-style {
+    width: 250px;
+    height: 150px;
+    background: #ddd;
+    text-align: center;
+    position: relative;
+    padding: 54px;
+}
+
+.single-style a {
+    color: #FC8D00;
+    font-weight: 600;
+    font-size: 29px;
+}
+
+
+
+.feature-wrap {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 130px;
+}
+
+img.hand-absolute {
+    position: absolute;
+    right: -30px;
+    bottom:  0;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.features-area {
+    padding-top: 100px;
+}
+.mainmenu-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu-area li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu-area li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+}
+
+.mainmenu-area {
+    background: #4c4b8a;
+    width: 100%;
+    z-index: 99;
+}
+.stick-area {
+    background: #fff;
+    width: 100%;
+    z-index: 99;
+}
+
+.height {
+    height: 120px;
+}
+.stick-area-2.is-stick {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: #fff
+}
+
+.is-sticky {
+    z-index: 999;
+    position: relative;
+}
