@@ -1,0 +1,117 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Vidaloka', serif;
+}
+a:hover { text-decoration: none }
+
+.author-bg-1 {background-image: url(../img/bg-1.jpg);}
+.author-bg-2 {background-image: url(../img/bg-2.jpg);}
+.author-bg-3 {background-image: url(../img/bg-3.jpg);}
+
+.testimonial-wrapper {
+    position: relative;
+    left: 65px;
+}
+
+h2.testimonial-title {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    font-size: 76px;
+    z-index: 2;
+}
+
+.testimonial-title span {
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    line-height: 1.9;
+    max-width: 40%;
+    padding-top: 250px;
+}
+
+.testimonial-author {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonial-author i.fa {
+    font-size: 24px;
+    color: #317FC2;
+}
+
+.testimonial-author h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.testimonial-author-bg {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    height: 100%;
+    width: 52%;
+    background-size: cover;
+    background-position: center top;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.testimonial-carousel .owl-nav div {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    font-size: 35px;
+    line-height: 70px;
+}
+
+.testimonial-carousel .owl-nav div:first-child {
+    background-color: #C7A05B;
+    color: #fff;
+}
+
+.testimonial-carousel .owl-nav {
+    text-align: center;
+    padding-right: 4%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.testimonial-carousel .owl-nav div:hover {
+    background-color: #333;
+    color: #fff;
+}
