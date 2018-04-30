@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.header-top {
+    background-color: #0b0b0b;
+    padding: 13px 0;
+}
+
+.header-top, .header-top a {
+    color: #f5f3f3;
+}
+
+.header-top i.fa {
+    color: #FC721E;
+    padding-right: 10px;
+}
+
+.social-links a {
+    height: 33px;
+    width: 33px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 33px;
+}
+
+.social-links i.fa {
+    padding-right: 0;
+    color: #fff;
+}
+
+.social-links {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.social-links a:hover {
+    background-color: #FC721E;
+    border-color: #FC721E;
+}
+
+.header-top i.fa.fa-phone {
+    padding-left: 25px;
+}
+
+.site-logo {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 15px 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.mainmenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    display: block;
+    color: #333;
+    padding: 16px 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+
+.mainmenu li:hover > a {
+	border: 1px solid #FC721E;
+}
+
+.header-area {
+    padding: 18px 0;
+}
